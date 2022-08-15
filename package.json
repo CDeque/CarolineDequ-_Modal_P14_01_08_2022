@@ -1,13 +1,16 @@
 {
   "name": "modal-14",
   "description": "Validation Modal",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "dist/index.js",
   "module": "dist/index.js",
-  "files": [ "dist", "README.md" ],
-  "repository": { 
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "repository": {
     "type": "git",
-    "url": "https://github.com/CDeque/CarolineDeque_Modal_P14_01_08_2022.git"  
+    "url": "https://github.com/CDeque/CarolineDeque_Modal_P14_01_08_2022.git"
   },
   "dependencies": {
     "@babel/cli": "^7.18.10",
