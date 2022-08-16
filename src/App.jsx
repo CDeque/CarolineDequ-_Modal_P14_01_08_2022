@@ -1,4 +1,5 @@
-import Modal from "./lib/components/Modal";
+import React from "react";
+import Modal from "./lib/";
 
 export default function App() {
   return (

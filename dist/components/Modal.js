@@ -5,6 +5,8 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = Modal;
 
+var _react = _interopRequireDefault(require("react"));
+
 var _reactFontawesome = require("@fortawesome/react-fontawesome");
 
 var _freeSolidSvgIcons = require("@fortawesome/free-solid-svg-icons");
@@ -20,16 +22,16 @@ function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(
 function Modal(_ref) {
   var text = _ref.text,
       closeModal = _ref.closeModal;
-  return /*#__PURE__*/React.createElement(ModalBackground, {
+  return /*#__PURE__*/_react.default.createElement(ModalBackground, {
     className: "modal_background",
     onClick: closeModal
-  }, /*#__PURE__*/React.createElement(ModalContainer, {
+  }, /*#__PURE__*/_react.default.createElement(ModalContainer, {
     className: "modal"
-  }, /*#__PURE__*/React.createElement("p", {
+  }, /*#__PURE__*/_react.default.createElement("p", {
     className: "modal_text"
-  }, text), /*#__PURE__*/React.createElement(IconContainer, {
+  }, text), /*#__PURE__*/_react.default.createElement(IconContainer, {
     className: "modal_icon"
-  }, /*#__PURE__*/React.createElement(_reactFontawesome.FontAwesomeIcon, {
+  }, /*#__PURE__*/_react.default.createElement(_reactFontawesome.FontAwesomeIcon, {
     icon: _freeSolidSvgIcons.faCircleXmark,
     style: {
       position: "absolute",
