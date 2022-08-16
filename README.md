@@ -4,7 +4,7 @@ This project a simple React Modal component. Style with Styled-Components and us
 
 ## Install
 
-Run `npm install modal-14` or `yarn add modal-14`
+Run `npm i cd-modal-14` or `yarn add cd-modal-14`
 
 ## Basic code
 

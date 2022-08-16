@@ -1,7 +1,7 @@
 {
   "name": "cd-modal-14",
   "description": "Validation Modal",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "files": [
